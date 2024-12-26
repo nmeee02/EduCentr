@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "semkr", "semkr\semkr.csproj", "{07D96A41-A384-4F3A-BC9B-64A595CB18B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D96A41-A384-4F3A-BC9B-64A595CB18B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D96A41-A384-4F3A-BC9B-64A595CB18B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D96A41-A384-4F3A-BC9B-64A595CB18B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D96A41-A384-4F3A-BC9B-64A595CB18B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B8A8BD-EDFB-4087-A6D8-30D7D7C3F897}
+	EndGlobalSection
+EndGlobal
