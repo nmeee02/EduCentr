@@ -23,5 +23,12 @@ namespace semkr
         {
             InitializeComponent();
         }
+
+        private void BackToCourses1(object sender, RoutedEventArgs e)
+        {
+            courses courses = new courses();
+            courses.Show();
+            this.Close();
+        }
     }
 }

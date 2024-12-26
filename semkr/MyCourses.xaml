@@ -17,6 +17,6 @@
         </Grid.RowDefinitions>
         <Label Content="My Courses" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
         <ListBox x:Name="CoursesListBox" Margin="10,10,10,10" Grid.Row="1"/>
-        <Button Width="100" Height="35" Margin=" 0 0 10 0" Content="Exit" Background="#002217" Foreground=" #e2e2e2" Grid.Row="2" HorizontalAlignment="Right"/>
+        <Button Width="100" Height="35" Margin=" 0 0 10 0" Content="Exit" Background="#002217" Foreground=" #e2e2e2" Grid.Row="2" HorizontalAlignment="Right" Click="BackToCourses1"/>
     </Grid>
 </Window>

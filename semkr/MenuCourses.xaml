@@ -16,9 +16,10 @@
         </Grid.RowDefinitions>
         <ListBox x:Name="CoursesListBox" Margin="10,10,10,10"/>
         <StackPanel Orientation="Horizontal" Grid.Row="1">
-            <Button Width="140" Height="35" Margin="5 0 0 0" Content="Sign up for a course" Background="#002217" Foreground=" #e2e2e2"/>
-            <Button Width="200" Height="35" Margin="15 0 0 0" Content="Learn more about the course" Background="#002217" Foreground=" #e2e2e2"/>
-            <Button Width="100" Height="35" Margin="120 0 0 0" Content="My courses" Background="#002217" Foreground=" #e2e2e2"/>
+            <Button Width="100" Height="35" Margin="10 0 0 0" Content="Back" Background="#002217" Foreground=" #e2e2e2" Click="BackToCourses" />
+            <Button Width="140" Height="35" Margin="10 0 0 0" Content="Sign up for a course" Background="#002217" Foreground=" #e2e2e2"/>
+            <Button Width="200" Height="35" Margin="10 0 0 0" Content="Learn more about the course" Background="#002217" Foreground=" #e2e2e2"/>
+            <Button Width="100" Height="35" Margin="10 0 0 0" Content="My courses" Background="#002217" Foreground=" #e2e2e2" Click="MyCousers1"/>
         </StackPanel>
     </Grid>
 </Window>

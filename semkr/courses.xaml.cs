@@ -23,5 +23,26 @@ namespace semkr
         {
             InitializeComponent();
         }
+
+        private void MyCourses(object sender, RoutedEventArgs e)
+        {
+            MenuCourses menuCourses = new MenuCourses();
+            menuCourses.Show();
+            this.Close();
+        }
+
+        private void MyEntries(object sender, RoutedEventArgs e)
+        {
+            MyCourses myCourses = new MyCourses();
+            myCourses.Show();
+            this.Close();
+        }
+
+        private void BackToMainWindow(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
     }
 }

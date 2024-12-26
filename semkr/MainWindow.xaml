@@ -23,12 +23,12 @@
             <TextBox Height="25" Width="150"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="0">
-        <Label Content="Login" Grid.Row="1" Grid.Column="0" Margin="0 35 0 20" HorizontalAlignment="Right"/>
+            <Label Content="Login" Grid.Row="1" Grid.Column="0" Margin="0 35 0 20" HorizontalAlignment="Right"/>
             <Label Content="Password" Grid.Row="1" Grid.Column="0" Margin="150 0 0 0" HorizontalAlignment="Right"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
-            <Button Width="120" Height="35" Margin="5 0 0 0" Content="LogIn" Background="#002217" Foreground=" #e2e2e2"/>
-            <Button Width="120" Height="35" Margin="15 0 0 0" Content="SingIn" Background="#002217" Foreground=" #e2e2e2"/>
+            <Button Width="120" Height="35" Margin="5 0 0 0" Content="LogIn" Background="#002217" Foreground=" #e2e2e2" Click="LogIn"/>
+            <Button Width="120" Height="35" Margin="15 0 0 0" Content="SignIn" Background="#002217" Foreground=" #e2e2e2" Click="SignIn"/>
         </StackPanel>
     </Grid>
 </Window>

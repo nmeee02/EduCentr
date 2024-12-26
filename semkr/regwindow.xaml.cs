@@ -23,5 +23,15 @@ namespace semkr
         {
             InitializeComponent();
         }
+
+        private void SignIn1(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            Close();
+
+        }
+
+       
     }
 }

@@ -19,9 +19,9 @@
         </Grid.RowDefinitions>
         <Label Grid.Row="0" Grid.Column="1" Content="EduCenter" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32"/>
         <StackPanel Grid.Row="1" Grid.Column="1">
-            <Button Width="120" Height="35" Margin="0 20 0 0" Content="My courses" Background="#002217" Foreground=" #e2e2e2"/>
-            <Button Width="120" Height="35" Margin="0 20 0 0" Content="My entries" Background="#002217" Foreground=" #e2e2e2"/>
+            <Button Width="120" Height="35" Margin="0 20 0 0" Content="My courses" Background="#002217" Foreground=" #e2e2e2" Click="MyCourses"/>
+            <Button Width="120" Height="35" Margin="0 20 0 0" Content="My entries" Background="#002217" Foreground=" #e2e2e2" Click="MyEntries"/>
         </StackPanel>
-        <Button Width="80" Height="35" Margin="0 20 0 0" Content="Exit" Background="#002217" Foreground=" #e2e2e2" Grid.Column="0" Grid.Row="2"/>
+        <Button Width="80" Height="35" Margin="0 20 0 0" Content="Exit" Background="#002217" Foreground=" #e2e2e2" Grid.Column="0" Grid.Row="2" Click="BackToMainWindow"/>
     </Grid>
 </Window>

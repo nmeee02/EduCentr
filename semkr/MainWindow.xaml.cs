@@ -20,5 +20,22 @@ namespace semkr
         {
             InitializeComponent();
         }
+
+        private void LogIn(object sender, RoutedEventArgs e)
+        {
+            courses courses = new courses();
+            courses.Show();
+            this.Close();
+        }
+
+        private void SignIn(object sender, RoutedEventArgs e)
+        {
+            regwindow regwindow = new regwindow();
+            regwindow.Show();
+            this.Close();
+            
+        }
+
+       
     }
 }
